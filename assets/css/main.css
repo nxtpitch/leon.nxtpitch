@@ -775,7 +775,13 @@
 		}
 
 		#main #video {
-			height: 400px;
+			width: 99%;
+		}
+
+		@media (min-width: 480px) {
+			#main #video {
+				width: 371px;
+			}
 		}
 
 /* Footer */
